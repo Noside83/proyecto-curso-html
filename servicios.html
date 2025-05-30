@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es-EC">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>EH Soluciones</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        /*.container {
+            display: flex;
+            justify-content: center;
+        }*/
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        .table {
+            width: 80%;        /* Ajusta según lo necesario */
+            max-width: 800px;  /* Define un ancho máximo */
+            text-align: justify;/**/
+
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+        h2 {
+            font-size: 24px;
+            margin: 15px;
+            padding: 0;
+        }
+
+        /*table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }*/
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>EH Soluciones Informáticas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a class="active" href="servicios.html">Servicios</a> </li>
+                <li><a href="audiovisuales.html">Audiovisuales</a> </li>
+                <li><a href="contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Servicios o Preferencias</h2>
+    <hr>
+
+    <div class="container">
+        <table class="table">
+            <colgroup>
+                <col style="background-color: rgb(207, 207, 207);">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th><strong>Servicios</strong></th>
+            <th><strong>Descripción</strong></th>
+            <th><strong>Categoria</strong></th>
+            <tr>
+                <td></td>
+                <td>Soporte técnico y mantenimiento</td>
+                <td>Servicios de reparación y mantenimiento de computadoras e impresoras para garantizar su
+                    funcionamiento eficiente.</td>
+                <td>Mantenimiento</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Desarrollo de software y aplicaciones</td>
+                <td>Diseño y desarrollo de aplicaciones móviles, páginas web y software de escritorio adaptados a las
+                    necesidades empresariales.</td>
+                <td>Software y Apps</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Instalación de servidores y gestión de redes</td>
+                <td>Implementación de servidores de bases de datos, correo electrónico y telefonía IP, además de
+                    instalación de redes para oficinas.</td>
+                <td>Infraestructura IT</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Seguridad tecnológica</td>
+                <td>Instalación de sistemas de vigilancia con cámaras IP para reforzar la seguridad y monitoreo de
+                    espacios.</td>
+                <td>Seguridad</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Cursos de ofimática y herramientas digitales</td>
+                <td>Formación en programas de ofimática, manejo profesional de documentos, hojas de cálculo y
+                    presentaciones.</td>
+                <td>Capacitación</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Capacitación en Internet y plataformas digitales</td>
+                <td>Mejora en la gestión y seguridad en el entorno digital para optimizar la productividad.</td>
+                <td>Capacitación</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Capacitaciones especializadas en tecnología</td>
+                <td>Cursos personalizados para fortalecer conocimientos en diversas áreas tecnológicas.</td>
+                <td>Capacitación</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2025</p>
+    </footer>
+</body>
+
+</html>

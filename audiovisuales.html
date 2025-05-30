@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-EC">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>EH Soluciones</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 25vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>EH Soluciones Informáticas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="servicios.html">Servicios</a> </li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a> </li>
+                <li><a href="contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h2>audiovisuales </h2>
+    </div>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/soporte-tecnico.jpg" target="_blank"><img src="assets/img/soporte-tecnico.jpg" alt="uno" width="250"></a>
+            <div class="desc">Soporte tecnico </>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/programacion 1.jpg" target="_blank"><img src="assets/img/programacion 1.jpg" alt="dos" width="250"></a>
+            <div class="desc">Programación </>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/oficina-pc.jpg" target="_blank"><img src="assets/img/oficina-pc.jpg" alt="tres" width="250" ></a>
+            <div class="desc">Capacitaciones</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/redes-cableado.jpg" target="_blank"><img src="assets/img/redes-cableado.jpg" alt="cuatro" width="250"></a>
+            <div class="desc">Redes y Cableado estructurado</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/sistemas.png" target="_blank"><img src="assets/img/sistemas.png" alt="cinco" width="250" ></a>
+            <div class="desc">Consultoria TICs</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2025</p>
+    </footer>
+</body>
+
+</html>
