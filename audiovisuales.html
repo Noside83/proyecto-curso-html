@@ -8,6 +8,10 @@
     <title>EH Soluciones</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: "Lucida Console", "Courier New", monospace;
             background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
@@ -56,26 +60,27 @@
 
         div.gallery {
             margin: 5px;
-            border: 1px solid #ccc;
+            border: 1px solid #777;
             float: left;
-            width: 25vw;
+            width: 30vw;
         }
 
         div.gallery:hover {
-            border: 1px solid #777;
+            border: 1px solid deepskyblue;
         }
 
-        div.gallery img {
+        div.gallery a img {
             width: 100%;
-            height: auto;
+            height: 20vw; /*height:auto*/
         }
 
         div.desc {
             padding: 15px;
             text-align: center;
+            background: linear-gradient(to right, beige, #92a4ff)
         }
 
-        .centrado {
+        section.centrado {
             display: flex;
             justify-content: center;
         }
@@ -85,7 +90,10 @@
             color: #FFF;
             padding: 10px;
             text-align: center;
-            clear: both;
+            /*clear: both;*/
+            position:fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 
@@ -106,27 +114,31 @@
         </nav>
     </header>
     <div>
-        <h2>audiovisuales </h2>
+        <h2>Audiovisuales </h2>
     </div>
+
     <section class="centrado">
         <div class="gallery">
-            <a href="assets/img/soporte-tecnico.jpg" target="_blank"><img src="assets/img/soporte-tecnico.jpg" alt="uno" width="250"></a>
-            <div class="desc">Soporte tecnico </>
+            <a href="assets/img/soporte-tecnico.jpg" target="_blank"><img src="assets/img/soporte-tecnico.jpg"
+                    alt="uno"></a>
+            <div class="desc">Soporte tecnico</div>
         </div>
         <div class="gallery">
-            <a href="assets/img/programacion 1.jpg" target="_blank"><img src="assets/img/programacion 1.jpg" alt="dos" width="250"></a>
-            <div class="desc">Programación </>
+            <a href="assets/img/programacion 1.jpg" target="_blank"><img src="assets/img/programacion 1.jpg"
+                    alt="dos"></a>
+            <div class="desc">Programación</div>
         </div>
         <div class="gallery">
-            <a href="assets/img/oficina-pc.jpg" target="_blank"><img src="assets/img/oficina-pc.jpg" alt="tres" width="250" ></a>
+            <a href="assets/img/oficina-pc.jpg" target="_blank"><img src="assets/img/oficina-pc.jpg" alt="tres"></a>
             <div class="desc">Capacitaciones</div>
         </div>
         <div class="gallery">
-            <a href="assets/img/redes-cableado.jpg" target="_blank"><img src="assets/img/redes-cableado.jpg" alt="cuatro" width="250"></a>
+            <a href="assets/img/redes-cableado.jpg" target="_blank"><img src="assets/img/redes-cableado.jpg"
+                    alt="cuatro"></a>
             <div class="desc">Redes y Cableado estructurado</div>
         </div>
         <div class="gallery">
-            <a href="assets/img/sistemas.png" target="_blank"><img src="assets/img/sistemas.png" alt="cinco" width="250" ></a>
+            <a href="assets/img/sistemas.png" target="_blank"><img src="assets/img/sistemas.png" alt="cinco"></a>
             <div class="desc">Consultoria TICs</div>
         </div>
     </section>
